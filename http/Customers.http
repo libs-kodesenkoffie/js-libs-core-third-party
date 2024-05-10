@@ -1,0 +1,14 @@
+@HOST=localhost
+@PORT=9900
+@API_PREFIX=api/v1
+@ENDPOINT=customers
+
+### Create Customer
+# POST http://localhost:3000/api/customers HTTP1.1
+# Content-Type: application/json
+
+# {}
+
+### Fetch all Customers
+GET http://{{HOST}}:{{PORT}}/{{API_PREFIX}}/{{ENDPOINT}}
+Content-Type: application/json
