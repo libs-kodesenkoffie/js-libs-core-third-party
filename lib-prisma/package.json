@@ -1,0 +1,22 @@
+{
+  "name": "lib-prisma",
+  "version": "1.0.0",
+  "description": "Prisma Library",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "@types/node": "^20.12.6",
+    "prisma": "^5.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.2"
+  }
+}
